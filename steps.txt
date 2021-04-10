@@ -1,0 +1,23 @@
+Django Installation: 
+    
+    create virtualenv:
+        $ python -m venv venv
+    
+    activate virtualenv:
+        $ source venv/bin/activate
+
+    install django:
+        $ pip install django
+        if there is a requirements.txt then use this command instead of pip install django:
+            $pip install -r requirements.txt
+
+----------------------------------------------------------------
+Create a Project:
+    $ django-admin startproject <project name>
+
+Create an App:
+    $ python manage.py startapp <app name>
+
+Finally:
+    $ python manage.py runserver
+----------------------------------------------------------------
